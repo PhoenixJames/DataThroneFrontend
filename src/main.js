@@ -6,9 +6,11 @@ import store from './store'
 import './registerServiceWorker'
 import Vuetify from 'vuetify'
 import VCharts from 'v-charts'
+import VueGoogleCharts from 'vue-google-charts'
 
 Vue.use(Vuetify)
 Vue.use(VCharts)
+Vue.use(VueGoogleCharts)
 
 Vue.config.productionTip = false
 
