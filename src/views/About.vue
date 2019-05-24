@@ -14,15 +14,21 @@
           <PieChart></PieChart>
       </v-flex>
 
+        <v-flex xs6>
+         <PieChartSecond></PieChartSecond> 
+      </v-flex>
+
       <v-flex xs6>
          <LineChart></LineChart> 
       </v-flex>
 
-           <v-flex xs6>
-        <v-card >
-          <LineChart></LineChart>
-        </v-card>
-      </v-flex>
+      <v-flex xs6>
+        <LineChart></LineChart>
+       </v-flex>
+
+        <v-flex xs6>
+        <HealthCard></HealthCard>
+       </v-flex>
 
     </v-layout>
   </div>
@@ -34,12 +40,17 @@ import PieChart from '../components/PieChart';
 import LineChart from '../components/LineChart';
 import PyramidChart from '../components/PyramidChart';
 import ColumnChart from '../components/ColumnChart';
+import PieChartSecond from '../components/PieChartSecond';
+import HealthCard from '../components/HealthCard';
 export default {
   components: {
     // BarChart,
     PieChart,
     LineChart,
-    PyramidChart
+    PyramidChart,
+    // ColumnChart
+    PieChartSecond,
+    HealthCard
     
   }
 }
