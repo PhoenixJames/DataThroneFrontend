@@ -1,7 +1,9 @@
 <template>
   <div>
   <MainBody class="BodyMain" />
+ 
   <PyramidChart class="test"></PyramidChart>
+  
   <!--<Footer/>-->
     <div class="grid-list-md text-xs-center">
       <v-layout>
@@ -11,11 +13,11 @@
           </v-flex>
 
            <v-flex  xs3>    
-            <v-btn color="success">success</v-btn>
+            <v-btn color="success" to="/Health">Health</v-btn>
           </v-flex>
 
            <v-flex  xs3>    
-            <v-btn color="success">success</v-btn>
+            <v-btn color="success" to="/Budget">Budget</v-btn>
           </v-flex>
 
            <v-flex  xs3>    
@@ -68,7 +70,7 @@
 </template>
 
 <script>
-  import MainBody from '../components/MainBody';
+  import MainBody from '../components/HomePage/MainBody';
   import PyramidChart from '../components/HomePage/PyramidChart';
   // import Footer from '../components/Footer';
 
