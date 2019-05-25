@@ -1,10 +1,12 @@
 <template>
-    <GChart
+  
+    <GChart 
             :settings="{ packages: ['corechart', 'table', 'map'] }"
             type="BarChart"
             :data="chartData"
             :options="chartOptions"
     />
+  
 </template>
 
 <script>

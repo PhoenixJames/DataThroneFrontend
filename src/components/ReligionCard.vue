@@ -4,7 +4,7 @@
             <v-flex xs6>
               <v-card color="blue-grey darken-2" class="white--text">
                 <v-card-actions>
-                  <v-btn flat dark to="/Health">Health Detail</v-btn>
+                  <v-btn flat dark to="/Religion">Religion Detail</v-btn>
                 </v-card-actions>
               </v-card>
             </v-flex>
@@ -14,13 +14,13 @@
 </template>
 
 <script>
-    export default{
-        name: 'HealthCard'
-}
+    export default {
+        name: 'ReligionCard'
+    }
 </script>
 
 <style>
-.white--text {
+    .white--text {
   height:300px;
   width: 300px;
 }

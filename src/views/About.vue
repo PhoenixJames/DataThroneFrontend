@@ -26,8 +26,20 @@
         <LineChart></LineChart>
        </v-flex>
 
-        <v-flex xs6>
+        <v-flex xs3>
         <HealthCard></HealthCard>
+       </v-flex>
+
+        <v-flex xs3>
+        <EducationCard></EducationCard>
+       </v-flex>
+
+        <v-flex xs3>
+        <ReligionCard></ReligionCard>
+       </v-flex>
+
+        <v-flex xs3>
+        <BudgetCard></BudgetCard>
        </v-flex>
 
     </v-layout>
@@ -36,12 +48,15 @@
 
 <script>
 // import BarChart from '../components/BarChart';
-import PieChart from '../components/PieChart';
+import PieChart from '../components/Population/PieChart';
 import LineChart from '../components/LineChart';
 import PyramidChart from '../components/PyramidChart';
 import ColumnChart from '../components/ColumnChart';
-import PieChartSecond from '../components/PieChartSecond';
+import PieChartSecond from '../components/Population/PieChartSecond';
 import HealthCard from '../components/HealthCard';
+import EducationCard from '../components/EducatiionCard';
+import ReligionCard from '../components/ReligionCard';
+import BudgetCard from '../components/BudgetCard';
 export default {
   components: {
     // BarChart,
@@ -50,7 +65,10 @@ export default {
     PyramidChart,
     // ColumnChart
     PieChartSecond,
-    HealthCard
+    HealthCard,
+    EducationCard,
+    ReligionCard,
+    BudgetCard
     
   }
 }

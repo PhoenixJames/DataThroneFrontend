@@ -1,15 +1,18 @@
 <template>
 <div id="app">
   <v-app id="inspire">
-    <v-toolbar dark>
-      <v-toolbar-side-icon></v-toolbar-side-icon>
-      <v-toolbar-title>Title</v-toolbar-title>
+    <v-toolbar transparent>
+      <!--<v-toolbar-side-icon></v-toolbar-side-icon>-->
+      <v-toolbar-title>DataThrone</v-toolbar-title>
       <v-spacer></v-spacer>
       <v-toolbar-items class="hidden-sm-and-down">
-        <v-btn flat>Link One</v-btn>
-        <v-btn flat>Link Two</v-btn>
-        <v-btn flat>Link Three</v-btn>
-        <v-btn to="/about">Go to Bar</v-btn>
+         <v-btn to="/">Home</v-btn>
+        <v-btn to="/about">Population</v-btn>
+        <v-btn flat to="/Health">Health</v-btn>
+        <v-btn flat to="/Education">Education</v-btn>
+        <v-btn flat to="/Religion">Religion</v-btn>
+         <v-btn flat to="/Budget">Budget</v-btn>
+       
         
       </v-toolbar-items>
     </v-toolbar>

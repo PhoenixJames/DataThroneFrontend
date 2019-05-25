@@ -23,6 +23,32 @@ export default new Router({
       component: () => import(/* webpackChunkName: "about" */ './views/Health.vue')
     },
 
+          {
+      path: '/Education',
+      name: 'Education',
+         // route level code-splitting
+      // this generates a separate chunk (about.[hash].js) for this route
+      // which is lazy-loaded when the route is visited.
+      component: () => import(/* webpackChunkName: "about" */ './views/Education.vue')
+    },
+    {
+      path: '/Religion',
+      name: 'Religion',
+         // route level code-splitting
+      // this generates a separate chunk (about.[hash].js) for this route
+      // which is lazy-loaded when the route is visited.
+      component: () => import(/* webpackChunkName: "about" */ './views/Religion.vue')
+    },
+
+     {
+      path: '/Budget',
+      name: 'Budget',
+         // route level code-splitting
+      // this generates a separate chunk (about.[hash].js) for this route
+      // which is lazy-loaded when the route is visited.
+      component: () => import(/* webpackChunkName: "about" */ './views/Budget.vue')
+    },
+
     {
       path: '/about',
       name: 'about',

@@ -6,10 +6,6 @@
      export default {
         name: 'PieChart',
     data () {
-         this.chartSettings = {
-        radius: 30,
-        offsetY: 250
-      }
       return {
         chartData: {
           columns: ['date', 'cost', 'profit'],
