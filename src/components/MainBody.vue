@@ -1,10 +1,10 @@
 <template>
 
-      <div id="app">
+<div id="app">
   <v-app id="inspire">
-    <v-parallax
+    <v-parallax 
       dark 
-      src="http://yesofcorsa.com/wp-content/uploads/2016/10/Bagan-Myanmar-Desktop-Wallpaper.jpg"
+      src ="http://yesofcorsa.com/wp-content/uploads/2016/10/Bagan-Myanmar-Desktop-Wallpaper.jpg"
     >
       <v-layout
         align-center

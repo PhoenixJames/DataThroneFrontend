@@ -50,8 +50,7 @@
 // import BarChart from '../components/BarChart';
 import PieChart from '../components/Population/PieChart';
 import LineChart from '../components/LineChart';
-import PyramidChart from '../components/PyramidChart';
-import ColumnChart from '../components/ColumnChart';
+import PyramidChart from '../components/HomePage/PyramidChart';
 import PieChartSecond from '../components/Population/PieChartSecond';
 import HealthCard from '../components/HealthCard';
 import EducationCard from '../components/EducatiionCard';
@@ -63,7 +62,6 @@ export default {
     PieChart,
     LineChart,
     PyramidChart,
-    // ColumnChart
     PieChartSecond,
     HealthCard,
     EducationCard,
