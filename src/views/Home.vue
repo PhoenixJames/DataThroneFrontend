@@ -4,7 +4,6 @@
  
   <PyramidChart class="test"></PyramidChart>
   
-  <!--<Footer/>-->
     <div class="grid-list-md text-xs-center">
       <v-layout>
       

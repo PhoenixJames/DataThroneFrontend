@@ -3,14 +3,11 @@
     <div class="grid-list-md text-xs-center"> 
         <v-layout row wrap > 
             <v-flex xs12>
-            
                 <ColumnChart></ColumnChart>
             </v-flex> 
 
             <v-flex xs12>
-            
-                <MultiSelect></MultiSelect>
-            
+                <MultiFilterColumn></MultiFilterColumn>
             </v-flex>
         </v-layout>
     </div>
@@ -21,7 +18,7 @@ import PieChart from '../components/Population/PieChart';
 import LineChart from '../components/OtherChart/LineChart';
 import BarChart from '../components/OtherChart/BarChart';
 import ColumnChart from '../components/Education/ColumnChart';
-import MultiSelect from '../components/MultiSelect';
+import MultiFilterColumn from '../components/MultiFilterColumn';
 
     export default {
         name: 'Education',
@@ -29,7 +26,7 @@ import MultiSelect from '../components/MultiSelect';
             PieChart,
             LineChart,
             BarChart,
-            MultiSelect,
+            MultiFilterColumn,
             ColumnChart
         }
     }
