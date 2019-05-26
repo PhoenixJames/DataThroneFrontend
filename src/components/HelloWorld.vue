@@ -11,6 +11,24 @@
           contain
           height="200"
         ></v-img>
+        <v-img
+          :src="require('../assets/Male.png')"
+          class="my-3"
+          contain
+          height="200"
+        ></v-img>
+        <v-img
+          :src="require('../assets/Female.png')"
+          class="my-3"
+          contain
+          height="200"
+        ></v-img>
+        <v-img
+          :src="require('../assets/diamond-shape.png')"
+          class="my-3"
+          contain
+          height="200"
+        ></v-img>
       </v-flex>
 
       <v-flex mb-4>
