@@ -1,82 +1,74 @@
 <template>
   <div>
   <MainBody class="BodyMain" />
- 
-  <PyramidChart class="test"></PyramidChart>
+  <div>
+  <h1 class="population">Population of Myanmar</h1>
+  </div>
+   <PyramidChart class="test"></PyramidChart>
+        <v-layout row wrap>
+        <v-flex xs6>
+            <img class="image" src="../assets/Male.png">
+        </v-flex>
+        <v-flex xs6>
+            <img class="image2" src="../assets/Female.png">
+        </v-flex>
+        </v-layout>
   
-    <div class="grid-list-md text-xs-center">
-      <v-layout>
-      
-          <v-flex  xs3>    
-            <v-btn color="success" to="/Education">Education</v-btn>
+    <div class=" text-xs-center">
+      <v-card></v-card>
+      <v-layout row wrap>
+
+          <v-flex  xs2>    
+              <v-btn outline large fab color="indigo" to="/Education">EDU</v-btn>
+          </v-flex> 
+          <v-flex  xs2>    
+              <v-btn outline large fab color="indigo" to="/Education">Health</v-btn>
           </v-flex>
-
-           <v-flex  xs3>    
-            <v-btn color="success" to="/Health">Health</v-btn>
+          <v-flex  xs2>    
+              <v-btn outline large fab color="indigo" to="/Education">Budget</v-btn>
           </v-flex>
-
-           <v-flex  xs3>    
-            <v-btn color="success" to="/Budget">Budget</v-btn>
+          <v-flex  xs2>    
+              <v-btn outline large fab color="indigo" to="/IAndD">I&D</v-btn>
           </v-flex>
-
-           <v-flex  xs3>    
-            <v-btn color="success">success</v-btn>
+          <v-flex  xs2>    
+              <v-btn outline large fab color="indigo" to="/Education">EDU</v-btn>
           </v-flex>
-          <v-router></v-router>
-      
-      </v-layout>
-
-      
-    </div>
-      <div class="grid-list-md text-xs-center">
-      <v-layout>
-      
-          <v-flex  xs4>    
-            <v-btn color="success">success</v-btn>
+          <v-flex  xs2>    
+              <v-btn outline large fab color="indigo" to="/Education">EDU</v-btn>
           </v-flex>
-
-           <v-flex  xs4>    
-            <v-btn color="success">success</v-btn>
+          <v-flex  xs2>    
+              <v-btn outline large fab color="indigo" class="a" to="/Education">EDU</v-btn>
           </v-flex>
-
-           <v-flex  xs4>    
-            <v-btn color="success">success</v-btn>
-          </v-flex>      
-      </v-layout>    
-    </div>
-
-        <div class="grid-list-md text-xs-center">
-      <v-layout>
-      
-          <v-flex  xs3>    
-            <v-btn color="success">success</v-btn>
+          <v-flex  xs2>    
+              <v-btn outline large fab color="indigo" class="a" to="/Education">EDU</v-btn>
           </v-flex>
-
-           <v-flex  xs3>    
-            <v-btn color="success">success</v-btn>
+          <v-flex  xs2>    
+              <v-btn outline large fab color="indigo" class="a" to="/Education">EDU</v-btn>
           </v-flex>
-
-           <v-flex  xs3>    
-            <v-btn color="success">success</v-btn>
-          </v-flex>  
-
-            <v-flex  xs3>    
-            <v-btn color="success">success</v-btn>
-          </v-flex>    
-      </v-layout>    
+          <v-flex  xs2>    
+              <v-btn outline large fab color="indigo" class="a" to="/Education">EDU</v-btn>
+          </v-flex>
+          <v-flex  xs2>    
+              <v-btn outline large fab color="indigo" class="a" to="/Education">EDU</v-btn>
+          </v-flex>
+         
+      </v-layout> 
+      </v-card>   
     </div>
   </div>
 </template>
 
 <script>
-  import MainBody from '../components/HomePage/MainBody';
+  import MainBody from '../components/MainBody';
   import PyramidChart from '../components/HomePage/PyramidChart';
+  import EducationCard from '../components/EducatiionCard';  
   // import Footer from '../components/Footer';
 
   export default {
     components: {
       MainBody,
-      PyramidChart
+      PyramidChart,
+      EducationCard
       // Footer
     }
   }
@@ -85,6 +77,21 @@
 <style>
 .test{
    height: 600px;
+}
+
+.a{
+  margin-left: 200px;
+}
+
+.image{
+    margin-left:300px;
+}
+.image2{
+    margin-left:180px;
+}
+
+.population{
+    margin-left:520px;
 }
 
 /*.diamond{

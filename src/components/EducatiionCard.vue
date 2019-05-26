@@ -1,7 +1,7 @@
 <template>
     <div class="container">
        <v-layout>
-            <v-flex xs6>
+            <v-flex xs3>
               <v-card color="blue-grey darken-2" class="white--text">
                 <v-card-actions>
                   <v-btn flat dark to="/Education">Education Detail</v-btn>
@@ -21,7 +21,7 @@ export default{
 
 <style>
 .white--text {
-  height:300px;
-  width: 300px;
+  height:100px;
+  width: 100px;
 }
 </style>
