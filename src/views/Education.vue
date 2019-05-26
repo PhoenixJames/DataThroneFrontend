@@ -18,7 +18,7 @@ import PieChart from '../components/Population/PieChart';
 import LineChart from '../components/OtherChart/LineChart';
 import BarChart from '../components/OtherChart/BarChart';
 import ColumnChart from '../components/Education/ColumnChart';
-import MultiFilterColumn from '../components/MultiFilterColumn';
+import MultiFilterColumn from '../components/Education/MultiFilterColumn';
 
     export default {
         name: 'Education',
